@@ -18,5 +18,5 @@ kobo_static_binaries/cross-compilation-utils/build-automake_1.15.sh
 Nano v2.9.5, using ncurses v6.1.
 Automake v1.15 is needed for the build process (see [build-automake_1.15.sh](cross-compilation-utils/build-automake_1.15.sh "build-automake_1.15.sh"))
 ### Bash
-Credit to [robxu9](/robxu9/bash-static "robxu9") for the build instructions.
+Credit to [robxu9](https://github.com/robxu9/bash-static "robxu9") for the build instructions.
 Need musl-gcc (see [download-musleabi.sh](cross-compilation-utils/download-musleabi.sh "download-musleabi.sh"))
