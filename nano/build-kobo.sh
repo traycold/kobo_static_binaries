@@ -20,7 +20,7 @@ export LDFLAGS="-L${DIR}/ncurses/nano-build/ncurses-install/usr/lib"
 	--disable-nls \
 	--disable-dependency-tracking
 make
+
 arm-linux-gnueabihf-strip -s src/nano
 mv src/nano ../binaries
-
-#final executable is: "../binaries/nano"
+echo "final executable is: ../binaries/nano"
