@@ -21,6 +21,6 @@ export LDFLAGS="-L${DIR}/ncurses/nano-build/ncurses-install/usr/lib"
 	--disable-dependency-tracking
 make
 arm-linux-gnueabihf-strip -s src/nano
-mv src/nano .
+mv src/nano ../binaries
 
-#final executable is: "./nano"
+#final executable is: "../binaries/nano"
